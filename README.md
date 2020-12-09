@@ -1,4 +1,4 @@
-Данные по branch для csv я брал из функции void Fetch<FuncInstr>::clock( Cycle cycle) в файле fetch.cpp :
+#Данные по branch для csv я брал из функции void Fetch<FuncInstr>::clock( Cycle cycle) в файле fetch.cpp :
 
 template <typename FuncInstr>
 void Fetch<FuncInstr>::clock( Cycle cycle)
@@ -32,7 +32,7 @@ wp_datapath->write( std::move( instr), cycle);
 }
 
 
-Создание csv файла происходит в файле log.h в классе Log
+#Cоздание csv файла происходит в файле log.h в классе Log
 
 class Log
 {
